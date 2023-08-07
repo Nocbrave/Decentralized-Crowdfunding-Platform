@@ -93,7 +93,7 @@ contract CrowdfundingPlatform {
 
         emit CampaignClosed(_campaignId, amountToTransfer);
     }
-
+# some confusion here. will be fixed soon
     function getCampaignDetails(uint256 _campaignId)
         public
         view
